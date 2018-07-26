@@ -1,0 +1,18 @@
+spring:
+	profiles:
+		active:
+			- dev
+
+
+---
+spring:
+	profiles: dev
+		application:
+			name: spring-rep-server-dev
+
+
+---
+spring:
+	profiles: test
+		application:
+			name: spring-rep-server-test
